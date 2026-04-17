@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<style>
+    body {
+    font-family: Arial;
+    background: #fafafa;
+    text-align: center;
+}
+
+header {
+    background: #ff9800;
+    color: white;
+    padding: 20px;
+}
+
+figure {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+video {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+</style>
+<body>
+
+<header>
+    <h1>Our Products</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+</nav>
+
+<main>
+
+<!-- Product 1 -->
+<figure>
+    <img src="phone.jpg" alt="Smartphone with high resolution camera">
+    <figcaption>Smartphone - UGX 800,000</figcaption>
+</figure>
+
+<!-- Product 2 -->
+<figure>
+    <img src="shoes.jpg" alt="Stylish sneakers for men">
+    <figcaption>Sneakers - UGX 120,000</figcaption>
+</figure>
+
+<!-- Product 3 -->
+<figure>
+    <img src="headphones.jpg" alt="Wireless headphones">
+    <figcaption>Headphones - UGX 90,000</figcaption>
+</figure>
+<figure>
+    <img src ="racks.jpg"alt="Rack">
+    <figcaption>Racks- UGX 150000</figcaption>
+</figure>
+
+<!-- Video -->
+<section>
+    <h2>Product Demo</h2>
+    <video controls width="300">
+        <source src="videos/demo.mp4" type="video/mp4">
+    </video>
+</section>
+
+</main>
+
+</body>
+</html>
