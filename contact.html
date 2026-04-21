@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Book a Consultation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* style.css */
+body { font-family: sans-serif; background: #f0f4f0; color: #333; margin: 0; }
+header { background: #2e5a27; color: white; padding: 20px; text-align: center; }
+nav { background: #333; padding: 10px; }
+nav ul { display: flex; list-style: none; justify-content: center; gap: 20px; margin: 0; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+main { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+thead { background: #2e5a27; color: white; }
+form { display: grid; gap: 10px; }
+button { background: #2e5a27; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 4px; }
+figure img { max-width: 100%; border-radius: 5px; }
+
+</style>
+<body>
+    <header><h1>Contact Me</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Bio</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="data.html">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Requirement: Form with specific types and labels -->
+        <form action="#" method="get">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number (Tel):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Booking Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </main>
+    <footer><p>&copy; 2026 Professional Semantic Portfolio</p></footer>
+</body>
+</html>
